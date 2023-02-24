@@ -1,0 +1,21 @@
+Notes:
+---------
+Start/Stop Docker grid using bat Files & Java program
+--------------------------------------------------
+1) Copy the file docker-compose.yaml in the Current Project
+
+2) Create start_dockergrid.bat file in the same Project which contains
+
+ cd C:\XXXX\eclipse-workspace\sdet
+ docker-compose up
+
+3) Create stop_dockergrid.bat file in the same Project which contains
+
+ cd C:\XXXX\eclipse-workspace\sdet
+ docker-compose down
+
+4) Create TestNG/Java class to run both the batch files.
+
+5) Run all the tests using TestNG xml together.
+
+6 Run all the tests using pom.xml together.

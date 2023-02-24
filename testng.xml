@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes">
+    <test thread-count="2" name="D:/PDP/SDET/Sample/docker_sample/docker_sample/src/main/java/com">
+        <classes>
+            <class name="com.runner.Setup_DockerGrid"/>
+            <class name="com.chrome.DockerWithChrome1"/>
+      <!--  <class name="com.chrome.DockerWithChrome2"/>
+            <class name="com.chrome.DockerWithChrome3"/>
+            <class name="com.edge.DockerWithEdge"/>      -->
+            <class name="com.firefox.DockerWithFirefox"/>
+        </classes>
+    </test>
+</suite>
